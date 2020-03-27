@@ -1,0 +1,17 @@
+---
+micronaut:
+  server:
+    port: 8082
+  application:
+    name: customer
+
+---
+datasources.default: {}
+---
+datasources:
+  default:
+    url: jdbc:oracle:thin:@//localhost:1521/ORCLCDB.localdomain
+    driverClassName: oracle.jdbc.OracleDriver
+    username: dummy
+    password: dummy
+    dialect: ORACLE

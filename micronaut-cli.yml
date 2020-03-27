@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: com.bytesw.customer
+---
+testFramework: junit
+sourceLanguage: java
